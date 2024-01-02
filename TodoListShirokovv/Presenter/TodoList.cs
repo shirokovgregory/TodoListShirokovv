@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
+﻿
 namespace TodoListShirokovv.Presenter
 {
     public class TodoList : ITodoList
