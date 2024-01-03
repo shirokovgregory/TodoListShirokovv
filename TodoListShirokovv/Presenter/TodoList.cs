@@ -3,12 +3,13 @@ namespace TodoListShirokovv.Presenter
 {
     public class TodoList : ITodoList
     {
-        private Dictionary<string, List<TodoTask>> tasklist { get; }
+        public Dictionary<string, List<TodoTask>> tasklist { get; }
 
         public TodoList()
         {
             tasklist = new Dictionary<string, List<TodoTask>>();
         }
+        
 
         public void AddTask(TodoTask task, IList<string> tagslist)
         {

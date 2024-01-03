@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListShirokovv", "TodoListShirokovv\TodoListShirokovv.csproj", "{23A0B31E-8481-4577-B29A-746C4960C456}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiroTests", "ShiroTests\ShiroTests.csproj", "{035B9B81-9FF8-4F8B-B799-E7DE212A468D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{23A0B31E-8481-4577-B29A-746C4960C456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A0B31E-8481-4577-B29A-746C4960C456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A0B31E-8481-4577-B29A-746C4960C456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035B9B81-9FF8-4F8B-B799-E7DE212A468D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035B9B81-9FF8-4F8B-B799-E7DE212A468D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035B9B81-9FF8-4F8B-B799-E7DE212A468D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035B9B81-9FF8-4F8B-B799-E7DE212A468D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
