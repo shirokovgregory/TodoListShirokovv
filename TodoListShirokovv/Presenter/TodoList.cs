@@ -1,13 +1,15 @@
 ﻿
+using TodoListShirokovv.DatabaseIntegration;
+
 namespace TodoListShirokovv.Presenter
 {
     public class TodoList : ITodoList
     {
         public Dictionary<string, List<TodoTask>> tasklist { get; }
 
-        public TodoList()
+        public TodoList(IMyRepository db)
         {
-            tasklist = new Dictionary<string, List<TodoTask>>();
+            tasklist = db.LoadFromDB();
         }
         
 

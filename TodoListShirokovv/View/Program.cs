@@ -1,11 +1,13 @@
-﻿using TodoListShirokovv.Presenter;
+﻿using TodoListShirokovv.DatabaseIntegration;
+using TodoListShirokovv.Presenter;
 
 
 class Program
 {
     static void Main()
     {
-        TodoList todoList = new TodoList();
+        IMyRepository db = new MyRepository(new ToDoListContext());
+        TodoList todoList = new TodoList(db);
 
         while (true)
         {
