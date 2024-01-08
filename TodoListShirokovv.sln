@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListShirokovv", "TodoLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiroTests", "ShiroTests\ShiroTests.csproj", "{035B9B81-9FF8-4F8B-B799-E7DE212A468D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListWebApi", "TodoListWebApi\TodoListWebApi.csproj", "{D8C88C6F-651C-456C-ACC4-E566A9AA308F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{035B9B81-9FF8-4F8B-B799-E7DE212A468D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{035B9B81-9FF8-4F8B-B799-E7DE212A468D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{035B9B81-9FF8-4F8B-B799-E7DE212A468D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C88C6F-651C-456C-ACC4-E566A9AA308F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C88C6F-651C-456C-ACC4-E566A9AA308F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C88C6F-651C-456C-ACC4-E566A9AA308F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C88C6F-651C-456C-ACC4-E566A9AA308F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
