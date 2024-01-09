@@ -27,7 +27,7 @@ public class TodoTask
         
         Console.WriteLine(date);
         
-        Console.WriteLine("Tags:");
+        Console.WriteLine("Tags: ");
         for (var i = 0; i < tags.Count; i++)
         {
             Console.Write(tags[i] + " ");
