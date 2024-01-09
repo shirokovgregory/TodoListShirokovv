@@ -1,4 +1,5 @@
-﻿using TodoListShirokovv.Presenter;
+﻿using System.Collections.ObjectModel;
+using TodoListShirokovv.Presenter;
 
 namespace TodoListShirokovv.DatabaseIntegration;
 
@@ -22,6 +23,17 @@ public class MyRepository : IMyRepository
         _context.Tasks.AddRange(localTasks.Select(x => ReVisualise(x)));
 
         _context.SaveChanges();
+    }
+    
+    public async Task SaveToDB(ObservableCollection<TodoTaskDto> list)
+    {
+        // Удаление старых задач
+        _context.Tasks.RemoveRange(_context.Tasks);
+        await _context.SaveChangesAsync();
+
+        // Добавление новых задач
+        _context.Tasks.AddRange(list);
+        await _context.SaveChangesAsync();
     }
 
     public Dictionary<string, List<TodoTask>> LoadFromDB()
