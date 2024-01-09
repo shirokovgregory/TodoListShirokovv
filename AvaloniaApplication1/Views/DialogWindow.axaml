@@ -25,4 +25,5 @@
 
                 <Button Content="Сохранить" Margin="0,0,0,10" Command="{Binding AddTask}"></Button>
         </StackPanel>
+    
 </Window>
